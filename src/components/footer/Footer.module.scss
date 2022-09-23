@@ -1,0 +1,44 @@
+.footer{
+  max-width: 414px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0px -4px 17px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  border-radius: 0 0 30px 30px;
+  position: fixed;
+  left: 0; right: 0; /* Вся ширина */
+  bottom: 0;
+}
+.container{
+  padding: 0 30px;
+}
+
+.wrapper_top{
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  svg{
+    fill: none;
+    width: 34px;
+    height: 34px;
+  }
+}
+.mid_button{
+  svg{
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+  }
+}
+.wrapper_bottom{
+  display: flex;
+  justify-content: center;
+  svg{
+    width: 144px;
+    height: 0px;
+    border: 3px solid #F1C40F;
+    border-radius: 50px;
+    margin-bottom: 12px;
+  }
+}
